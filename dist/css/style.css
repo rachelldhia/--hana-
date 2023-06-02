@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+@font-face {
+    font-family: "Sailing Heart";
+    src: url('/Users/racheldhiamaharni/vscodeprojetc/花(hana)/font/Sailing Heart Free 2.ttf');
+}
+@font-face {
+    font-family: "Hello Darling";
+    src: url('/Users/racheldhiamaharni/vscodeprojetc/花(hana)/font/Hello Darling.ttf');
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+    
+    
+}
+body {
+    margin: auto;
+    background-color: #f3f3f3;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0d0c0c58;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    z-index: 9;
+  
+}
+
+ nav a:hover{
+    color:#fc95b0;
+ }
+
+a, a:hover, a:active, a:focus, a:visited{
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size: 20px;
+    margin: 10px;
+} 
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -90px;
+}
+
+#about h1{
+    font-family: 'Sailing Heart';
+    font-size: 90px;
+    font-weight: 400;
+}
+#about .desc{
+    padding-left: 120px;
+    margin-top: -100px;
+}
+#about p{
+    font-size: 27px;
+    margin-top: 20px;
+}
+#about .image{
+    background-image: url('/Users/racheldhiamaharni/vscodeprojetc/花(hana)/image/orchidpurple.png');
+    width: 485px;
+    height: 1000px;
+}
+#mainbanner h1{
+    font-family: 'Sailing Heart';
+    font-size: 190px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+    padding-top: 180px;
+}
+#mainbanner h2{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+#me h1{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 90px;
+}
+#me h2{
+    font-family: 'Poppins';
+    margin-top: 40px;
+    text-align: center;
+}
+#littleprofile{
+    margin-left: 100px;
+}
+#littleprofile h1{
+    font-family: 'Sailing Heart';
+    font-size: 70px;
+    font-weight: 400;
+}
+#littleprofile p{
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 400;
+}
+#content h1{
+    font-size: 150px;
+    font-family: 'Sailing Heart';
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 95PX;
+}
+#rose p{
+    margin-left: 110px;
+    margin-top: -610px;
+    padding-bottom: 270px;
+    font-size: 24px;
+}
+#orchid p{
+    margin-left: 110px;
+    margin-top: -730px;
+    padding-bottom: 260px;
+    font-size: 24px;
+}
+#dandelion p{
+    margin-left: 110px;
+    margin-top: -590px;
+    padding-bottom: 270px;
+    font-size: 24px;
+}
+
+
+#mainbanner {
+    background-image: url('/Users/racheldhiamaharni/vscodeprojetc/花(hana)/image/blossom.png');
+    background-size: cover;
+    width: 100%;
+    height: 840px;
+}
+
+#overlayimage {
+    width: 1300px;
+    height: 700px;
+    left: 0;
+    right: 0;
+    top: 95px;
+    bottom: 0;
+    margin: auto;
+    position: relative;
+
+    background: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(20px);
+
+    border-radius: 40px;
+    
+}
+
+#overlayimage2 {
+    height: 100%;
+    right: 70px;
+    position: absolute;
+}
+#flowerimage{
+    position: absolute;
+    top: 980px;
+    
+}
+#aside .rec{
+     position: absolute;
+     right: 100px;
+     top: 1800px;
+     width: 500px;
+     height: 100px;
+    
+}
+#me{
+    position: absolute;
+    top: -10px;
+}
+#littleprofile{
+    margin-top: 480px;
+    position: absolute;
+}
+ 
+
+
+#rose .banner{
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 1000px;
+}
+#rose{
+    padding-bottom: 140px;
+}
+#orchid{
+    padding-bottom: 140px;
+}
+#dandelion{
+    padding-bottom: 90px;
+}
+#orchid .banner{
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 1000px;
+}
+#dandelion .banner{
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 1000px;
+}
+#rose .hanarose{
+    margin-top: -620px;
+    margin-left: 208px;
+}
+#orchid .hanaorchid{
+    margin-top: -900px;
+    margin-left: 338px;
+}
+#dandelion .hanadandelion{
+    margin-top: -620px;
+    margin-left: 208px;
+}
+footer{
+    /* position: fixed;
+    bottom: 0; */
+    background-color: #D4B8B7;
+    height: 400px;
+    width: 100%;
+}
+#footer .footer-content h1{
+    font-weight: 400;
+    font-family: 'Sailing Heart';
+    font-size: 80px;
+    padding-top: 40px;
+    margin-left: 40px;
+
+    
+}
+
+#instagram{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#gmail{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#github{
+    margin-left: 450px;
+    font-family: 'Poppins';
+    margin-top: -125px
+}
+#linkedin{
+    margin-left: 455px;
+    font-family: 'Poppins';
+    margin-top: 33px
+}
+
+#instagram p{
+    font-size: 27px;
+    font-family: 'Poppins';
+    margin-left: 80px;
+    margin-top: -45px
+}
+
+#gmail p{
+    font-size: 27px;
+    font-family: 'Poppins';
+    margin-left: 72px;
+    margin-top: -45px
+}
+#github p{
+    font-size: 27px;
+    font-family: 'Poppins';
+    margin-left: 92px;
+    margin-top: -52px
+}
+#linkedin p{
+    font-size: 27px;
+    font-family: 'Poppins';
+    margin-left: 85px;
+    margin-top: -45px
+
+}
+#coppywrite{
+    background-color: #BB8282;
+    padding: 10px;
+    margin-top: 66px;
+    text-align: center;
+}
